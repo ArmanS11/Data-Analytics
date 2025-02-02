@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "SQL",
+            "database": "SQL",
+            "username": "postgres",
+            "password": ""
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SQL",
+            "database": "${workspaceFolder:Data Analytics}/dataset.csv"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
